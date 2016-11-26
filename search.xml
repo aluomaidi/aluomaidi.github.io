@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>https://aluomaidi.github.io/hexo/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[为什么用hexo代替jekyll]]></title>
+      <url>https://aluomaidi.github.io/hexo/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8hexo%E4%BB%A3%E6%9B%BFjekyll/</url>
+      <content type="html"><![CDATA[<p>最近想要搞个个人博客，因为不想自己搞站点，所以找到了github pages，它提供给我们域名和空间，多省事啊。那静态页面用什么工具呢？一开始我用的是jekyll,然后我有了那句经典的感受，那句话是从入门到放弃，啊，多么痛的领悟！<br><a id="more"></a><br>下面我来扒一扒：</p>
+<p>官网，那个色调看着很伤眼睛啊，一个docs看下来,我是眼泪往下流啊，hexo的暖色调就像天使，下面放图对比一下</p>
+<p> <img src="http://img.blog.csdn.net/20160922102957967" alt="这里写图片描述"></p>
+<p><img src="http://img.blog.csdn.net/20160922103017983" alt="这里写图片描述"></p>
+<p><strong>如果你自认为眼睛很好，那就继续往下看</strong></p>
+<p>jekyll需要安装ruby,python等，hexo需要nodejs，当然为了push到github都需要装个git,速度上jekyll生成静态站点的速度比hexo慢多了，如果你时间多。</p>
+<p><strong>如果你正好想休息喝杯茶，不在乎慢点，那也请继续往下看</strong></p>
+<p>便捷性，hexo完爆jekyll，同样是quick start，虽然都是几个命令，就可以预览效果了，但是效果差了十万八千里，这个必须上图</p>
+<p><img src="http://img.blog.csdn.net/20160922110655751" alt="这里写图片描述"></p>
+<p><img src="http://img.blog.csdn.net/20160922110954153" alt="这里写图片描述"></p>
+<p> jekyll直接显示个空白页，你没看错，哈哈，hexo我加了个文章，为了让你看到分类功能，其他什么没干，这就是差别</p>
+<p><strong>你竟然看到了这里？看来上面三条对你都是小case，那说明你还没有绝望啊，勇士请继续</strong></p>
+<p>插件和样式，你写完post，想做个categories？对于hexo就是so easy，在你的文章前面的使用category: 分类名，hexo就给你在右边生成，包括分类主页，默认样式，你啥都不用干。而jekyll需要自己写标签语言遍历然后在创建各个分类的主页，在设置页面css，或者用ruby写插件去搞，这下老子要骂娘了，我他妈根本不会ruby啊，官方为什么不主动提供好现成的插件？我只是个后端工程师，不是全栈，页面+css真的玩不来，不知道提供些theme供人选择？</p>
+<p><strong>如果你是个受虐狂，去捣鼓jekyll吧</strong></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[数据库事务与锁详解]]></title>
+      <url>https://aluomaidi.github.io/%E6%95%B0%E6%8D%AE%E5%BA%93/%E4%BA%8B%E5%8A%A1/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1%E4%B8%8E%E9%94%81%E8%AF%A6%E8%A7%A3/</url>
+      <content type="html"><![CDATA[<h1 id="什么是事务（Transaction）？"><a href="#什么是事务（Transaction）？" class="headerlink" title="什么是事务（Transaction）？"></a><strong>什么是事务（Transaction）？</strong></h1><p>是指作为单个逻辑工作单元执行的一系列操作，要么完全地执行，要么完全地不执行。 事务处理可以确保除非事务性单元内的所有操作都成功完成，否则不会永久更新面向数据的资源。通过将一组相关操作组合为一个要么全部成功要么全部失败的单元，可以简化错误恢复并使应用程序更加可靠。一个逻辑工作单元要成为事务，必须满足所谓的ACID（原子性、一致性、隔离性和持久性）属性。事务是数据库运行中的一个逻辑工作单位，由DBMS中的事务管理子系统负责事务的处理。<br><a id="more"></a><br>举个例子加深一下理解：同一个银行转账，A转1000块钱给B，这里存在两个操作，一个是A账户扣款1000元，两一个操作是B账户增加1000元，两者就构成了转账这个事务。</p>
+<ul>
+<li>两个操作都成功，A账户扣款1000元，B账户增加1000元，事务成功</li>
+<li>两个操作都失败，A账户和B账户金额都没变，事务失败</li>
+</ul>
+<p>最后思考一下，怎么样会出现A账户扣款1000元，B账户金额不变？如果你是把两个操作放在一个事务里面，并且是数据库提供的内在事务支持，那就不会有问题，但是开发人员把两个操作放在两个事务里面，而第二个事务失败就会出现中间状态。现实中自己实现的分布式事务处理不当也会出现中间状态，这并不是事务的错，事务本身就是规定不会出现中间状态，是事务实现者做出来的方案有问题。</p>
+<h1 id="事务的4个特性"><a href="#事务的4个特性" class="headerlink" title="事务的4个特性"></a><strong>事务的4个特性</strong></h1><ul>
+<li><p><strong>原子性(Atomic)</strong>：事务必须是原子工作单元；对于其数据修改，要么全都执行，要么全都不执行。通常，与某个事务关联的操作具有共同的目标，并且是相互依赖的。如果系统只执行这些操作的一个子集，则可能会破坏事务的总体目标。原子性消除了系统处理操作子集的可能性。</p>
+</li>
+<li><p><strong>一致性(Consistency)</strong>：事务的一致性指的是在一个事务执行之前和执行之后数据库都必须处于一致性状态。这种特性称为事务的一致性。假如数据库的状态满足所有的完整性约束，就说该数据库是一致的。</p>
+</li>
+<li><p><strong>隔离性(Isolation)</strong>：由并发事务所作的修改必须与任何其它并发事务所作的修改隔离。事务查看数据时数据所处的状态，到底是另一个事务执行之前的状态还是中间某个状态，相互之间存在什么影响，是可以通过隔离级别的设置来控制的。</p>
+</li>
+<li><p><strong>持久性(Durability)</strong>：事务结束后，事务处理的结果必须能够得到固化，即写入数据库文件中即使机器宕机数据也不会丢失，它对于系统的影响是永久性的。</p>
+</li>
+</ul>
+<h1 id="事务并发控制"><a href="#事务并发控制" class="headerlink" title="事务并发控制"></a><strong>事务并发控制</strong></h1><p>我们从另外一个方向来说说，如果不对事务进行并发控制，我们看看数据库并发操作是会有那些异常情形，有些使我们可以接受的，有些是不能接受的，注意这里的异常就是特定语境下的，并不一定就是错误什么的。假设有一个order表，有个字段叫count，作为计数用，当前值为100</p>
+<ul>
+<li><p><strong>第一类丢失更新（Update Lost）</strong>：此种更新丢失是因为回滚的原因，所以也叫回滚丢失。此时两个事务同时更新count，两个事务都读取到100，事务一更新成功并提交，count=100+1=101，事务二出于某种原因更新失败了，然后回滚，事务二就把count还原为它一开始读到的100，此时事务一的更新就这样丢失了。</p>
+</li>
+<li><p><strong>脏读（Dirty Read）</strong>：此种异常时因为一个事务读取了另一个事务修改了但是未提交的数据。举个例子，事务一更新了count=101，但是没有提交，事务二此时读取count，值为101而不是100，然后事务一出于某种原因回滚了，然后第二个事务读取的这个值就是噩梦的开始。</p>
+</li>
+<li><p><strong>不可重复读（Not Repeatable Read）</strong>：此种异常是一个事务对同一行数据执行了两次或更多次查询，但是却得到了不同的结果，也就是在一个事务里面你不能重复（即多次）读取一行数据，如果你这么做了，不能保证每次读取的结果是一样的，有可能一样有可能不一样。造成这个结果是在两次查询之间有别的事务对该行数据做了更新操作。举个例子，事务一先查询了count，值为100，此时事务二更新了count=101，事务一再次读取count,值就会变成101，两次读取结果不一样。</p>
+</li>
+<li><p><strong>第二类丢失更新（Second Update Lost）</strong>：此种更新丢失是因为更新被其他事务给覆盖了，也可以叫覆盖丢失。举个例子，两个事务同时更新count，都读取100这个初始值，事务一先更新成功并提交，count=100+1=101，事务二后更新成功并提交，count=100+1=101,由于事务二count还是从100开始增加，事务一的更新就这样丢失了。</p>
+</li>
+<li><p><strong>幻读（Phantom Read）</strong>：幻读和不可重复读有点像，只是针对的不是数据的值而是数据的数量。此种异常是一个事务在两次查询的过程中数据的数量不同，让人以为发生幻觉，幻读大概就是这么得来的吧。举个例子，事务一查询order表有多少条记录，事务二新增了一条记录，然后事务一查了一下order表有多少记录，发现和第一次不一样，这就是幻读。</p>
+</li>
+</ul>
+<h1 id="数据库事务隔离级别"><a href="#数据库事务隔离级别" class="headerlink" title="数据库事务隔离级别"></a><strong>数据库事务隔离级别</strong></h1><p>看到上面提到的几种问题，你可能会想，我擦，这么多坑怎么办啊。其实上面几种情况并不是一定都要避免的，具体看你的业务要求，包括你数据库的负载都会影响你的决定。不知道大家发现没有，上面各种异常情况都是多个事务之间相互影响造成的，这说明两个事务之间需要某种方式将他们从某种程度上分开，降低直至避免相互影响。这时候数据库事务隔离级别就粉墨登场了，而数据库的隔离级别实现一般是通过数据库锁实现的。</p>
+<ul>
+<li><p><strong>读未提交（Read Uncommitted）</strong>：该隔离级别指即使一个事务的更新语句没有提交,但是别的事务可以读到这个改变，几种异常情况都可能出现。极易出错，没有安全性可言，基本不会使用。</p>
+</li>
+<li><p><strong>读已提交（Read Committed）</strong>：该隔离级别指一个事务只能看到其他事务的已经提交的更新，看不到未提交的更新，消除了脏读和第一类丢失更新，这是大多数数据库的默认隔离级别，如Oracle,Sqlserver。</p>
+</li>
+<li><p><strong>可重复读（Repeatable Read）</strong>：该隔离级别指一个事务中进行两次或多次同样的对于数据内容的查询，得到的结果是一样的，但不保证对于数据条数的查询是一样的，只要存在读改行数据就禁止写，消除了不可重复读和第二类更新丢失，这是Mysql数据库的默认隔离级别。</p>
+</li>
+<li><p><strong>串行化（Serializable）</strong>：意思是说这个事务执行的时候不允许别的事务并发执行.完全串行化的读，只要存在读就禁止写,但可以同时读，消除了幻读。这是事务隔离的最高级别，虽然最安全最省心，但是效率太低，一般不会用。</p>
+</li>
+</ul>
+<h4 id="下面是各种隔离级别对各异常的控制能力："><a href="#下面是各种隔离级别对各异常的控制能力：" class="headerlink" title="下面是各种隔离级别对各异常的控制能力："></a><strong>下面是各种隔离级别对各异常的控制能力：</strong></h4><table>
+<thead>
+<tr>
+<th style="text-align:center">级别\异常</th>
+<th style="text-align:center">第一类更新丢失</th>
+<th style="text-align:center">脏读</th>
+<th style="text-align:center">不可重复读</th>
+<th style="text-align:center">第二类丢失更新</th>
+<th style="text-align:center">幻读</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">读未提交</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td style="text-align:center">读已提交</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td style="text-align:center">可重复读</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">Y</td>
+</tr>
+<tr>
+<td style="text-align:center">串行化</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">N</td>
+</tr>
+</tbody>
+</table>
+<h1 id="数据库锁分类"><a href="#数据库锁分类" class="headerlink" title="数据库锁分类"></a><strong>数据库锁分类</strong></h1><p>一般可以分为两类，一个是悲观锁，一个是乐观锁，悲观锁一般就是我们通常说的数据库锁机制，乐观锁一般是指用户自己实现的一种锁机制，比如hibernate实现的乐观锁甚至编程语言也有乐观锁的思想的应用。</p>
+<p><strong>悲观锁</strong>：顾名思义，就是很悲观，它对于数据被外界修改持保守态度，认为数据随时会修改，所以整个数据处理中需要将数据加锁。悲观锁一般都是依靠关系数据库提供的锁机制，事实上关系数据库中的行锁，表锁不论是读写锁都是悲观锁。</p>
+<h4 id="悲观锁按照使用性质划分："><a href="#悲观锁按照使用性质划分：" class="headerlink" title="悲观锁按照使用性质划分："></a><strong>悲观锁按照使用性质划分：</strong></h4><ul>
+<li><p><strong>共享锁（Share locks简记为S锁）</strong>：也称读锁，事务A对对象T加s锁，其他事务也只能对T加S，多个事务可以同时读，但不能有写操作，直到A释放S锁。</p>
+</li>
+<li><p><strong>排它锁（Exclusivelocks简记为X锁）</strong>：也称写锁，事务A对对象T加X锁以后，其他事务不能对T加任何锁，只有事务A可以读写对象T直到A释放X锁。</p>
+</li>
+<li><p><strong>更新锁（简记为U锁）</strong>：用来预定要对此对象施加X锁，它允许其他事务读，但不允许再施加U锁或X锁；当被读取的对象将要被更新时，则升级为X锁，主要是用来防止死锁的。因为使用共享锁时，修改数据的操作分为两步，首先获得一个共享锁，读取数据，然后将共享锁升级为排它锁，然后再执行修改操作。这样如果同时有两个或多个事务同时对一个对象申请了共享锁，在修改数据的时候，这些事务都要将共享锁升级为排它锁。这些事务都不会释放共享锁而是一直等待对方释放，这样就造成了死锁。如果一个数据在修改前直接申请更新锁，在数据修改的时候再升级为排它锁，就可以避免死锁。</p>
+</li>
+</ul>
+<h4 id="悲观锁按照作用范围划分："><a href="#悲观锁按照作用范围划分：" class="headerlink" title="悲观锁按照作用范围划分："></a><strong>悲观锁按照作用范围划分：</strong></h4><ul>
+<li><strong>行锁</strong>：锁的作用范围是行级别，数据库能够确定那些行需要锁的情况下使用行锁，如果不知道会影响哪些行的时候就会使用表锁。举个例子，一个用户表user，有主键id和用户生日birthday当你使用update … where id=?这样的语句数据库明确知道会影响哪一行，它就会使用行锁，当你使用update … where birthday=?这样的的语句的时候因为事先不知道会影响哪些行就可能会使用表锁。</li>
+<li><strong>表锁</strong>：锁的作用范围是整张表。</li>
+</ul>
+<p><strong>乐观锁</strong>：顾名思义，就是很乐观，每次自己操作数据的时候认为没有人回来修改它，所以不去加锁，但是在更新的时候会去判断在此期间数据有没有被修改，需要用户自己去实现。既然都有数据库提供的悲观锁可以方便使用为什么要使用乐观锁呢？对于读操作远多于写操作的时候，大多数都是读取，这时候一个更新操作加锁会阻塞所有读取，降低了吞吐量。最后还要释放锁，锁是需要一些开销的，我们只要想办法解决极少量的更新操作的同步问题。换句话说，如果是读写比例差距不是非常大或者你的系统没有响应不及时，吞吐量瓶颈问题，那就不要去使用乐观锁，它增加了复杂度，也带来了额外的风险。</p>
+<h4 id="乐观锁实现方式："><a href="#乐观锁实现方式：" class="headerlink" title="乐观锁实现方式："></a><strong>乐观锁实现方式：</strong></h4><ul>
+<li><strong>版本号（记为version）</strong>：就是给数据增加一个版本标识，在数据库上就是表中增加一个version字段，每次更新把这个字段加1，读取数据的时候把version读出来，更新的时候比较version，如果还是开始读取的version就可以更新了，如果现在的version比老的version大，说明有其他事务更新了该数据，并增加了版本号，这时候得到一个无法更新的通知，用户自行根据这个通知来决定怎么处理，比如重新开始一遍。这里的关键是判断version和更新两个动作需要作为一个原子单元执行，否则在你判断可以更新以后正式更新之前有别的事务修改了version，这个时候你再去更新就可能会覆盖前一个事务做的更新，造成第二类丢失更新，所以你可以使用update … where … and version=”old version”这样的语句，根据返回结果是0还是非0来得到通知，如果是0说明更新没有成功，因为version被改了，如果返回非0说明更新成功。</li>
+<li><strong>时间戳（timestamp）</strong>：和版本号基本一样，只是通过时间戳来判断而已，注意时间戳要使用数据库服务器的时间戳不能是业务系统的时间。</li>
+<li><strong>待更新字段</strong>：和版本号方式相似，只是不增加额外字段，直接使用有效数据字段做版本控制信息，因为有时候我们可能无法改变旧系统的数据库表结构。假设有个待更新字段叫count,先去读取这个count,更新的时候去比较数据库中count的值是不是我期望的值（即开始读的值），如果是就把我修改的count的值更新到该字段，否则更新失败。java的基本类型的原子类型对象如AtomicInteger就是这种思想。</li>
+<li><p><strong>所有字段</strong>：和待更新字段类似，只是使用所有字段做版本控制信息，只有所有字段都没变化才会执行更新。</p>
+<h4 id="乐观锁几种方式的区别："><a href="#乐观锁几种方式的区别：" class="headerlink" title="乐观锁几种方式的区别："></a><strong>乐观锁几种方式的区别：</strong></h4><p>新系统设计可以使用version方式和timestamp方式，需要增加字段，应用范围是整条数据，不论那个字段修改都会更新version,也就是说两个事务更新同一条记录的两个不相关字段也是互斥的，不能同步进行。旧系统不能修改数据库表结构的时候使用数据字段作为版本控制信息，不需要新增字段，待更新字段方式只要其他事务修改的字段和当前事务修改的字段没有重叠就可以同步进行，并发性更高。</p>
+</li>
+</ul>
+<h1 id="mysql事务隔离级别实战"><a href="#mysql事务隔离级别实战" class="headerlink" title="mysql事务隔离级别实战"></a><strong>mysql事务隔离级别实战</strong></h1><p>实践是检验真理的唯一标准，掌握上面的理论之后，我们在数据库上实战一番家里更好地掌握也加深理解，同时有助于解决实际问题。不同数据库很多实现可能不同，这里以mysql为例讲解各种隔离级别下的情况，测试表为user（id,name,gender,passwd,email）。</p>
+<h4 id="隔离级别：read-uncommitted"><a href="#隔离级别：read-uncommitted" class="headerlink" title="隔离级别：read-uncommitted"></a><strong>隔离级别：read-uncommitted</strong></h4><p>脏读测试流程：</p>
+<ol>
+<li>A设置隔离级别为read-uncommitted（注意这里未声明都是session级别，而非全局的），开启事务，查询id=1的记录</li>
+<li>B设置隔离级别为read-uncommitted,开启事务，修改id=1的记录，但不提交</li>
+<li>A再次查询id=1的记录，和第一次查询的比较一下</li>
+<li>B事务回滚，A事务回滚。</li>
+</ol>
+<p>A:</p>
+<p><img src="http://img.blog.csdn.net/20160908174428502" alt="这里写图片描述"></p>
+<p>B：</p>
+<p><img src="http://img.blog.csdn.net/20160908174443940" alt="这里写图片描述"></p>
+<p>结论：A读到了B没有提交的内容，隔离级别为read-uncommitted的时候出现脏读。</p>
+<p>第一类更新丢失测试流程：</p>
+<ol>
+<li>A设置隔离级别为read-uncommitted，开启事务，查询id=1的记录</li>
+<li>B设置隔离级别为read-uncommitted，开启事务,查询id=1的记录</li>
+<li>A修改id=1的记录</li>
+<li>B修改id=1的记录</li>
+<li>A提交</li>
+<li>B回滚</li>
+<li>A在查询一次id=1的记录，看看自己的修改是否成功</li>
+</ol>
+<p>结论：结果不如我所想的，A的更新成功了，为什么呢？A执行update语句的时候对该条记录加锁了，B这时候根本无法修改直至超时，也就是至少在mysql中在read-uncommitted隔离级别下验证第一类丢失更新，据了解有的数据库好像可以设置不加锁，如果能够不加锁的话则可以实现，也贴一下图吧。</p>
+<p>A：</p>
+<p><img src="http://img.blog.csdn.net/20160920181141520" alt="这里写图片描述"></p>
+<p>B：</p>
+<p><img src="http://img.blog.csdn.net/20160920181155270" alt="这里写图片描述"></p>
+<p>不可重复读测试流程（省略）：</p>
+<p>结论：流程和测试脏读一样，其实在第一次测试脏读的时候就可以发现会出现不可重复读，A两次读取id=1的数据内容不同。</p>
+<p>第二类丢失更新流程：</p>
+<ol>
+<li>A开启事务，查询order_id=1的记录</li>
+<li>B开启事务，查询order_id=1的记录</li>
+<li>A把查出来的count加1后更新</li>
+<li>B把查出来的count加1更新</li>
+<li>A提交，B也提交 </li>
+</ol>
+<p>A:</p>
+<p><img src="http://img.blog.csdn.net/20160908225746594" alt="这里写图片描述"></p>
+<p>B:</p>
+<p><img src="http://img.blog.csdn.net/20160908225809188" alt="这里写图片描述"></p>
+<p>结论：A的更新丢失，我们希望的结果是3，而实际结果是2，跟java的多线程很像对不对，read-uncommitted隔离模式下会出现第二类丢失更新。</p>
+<p>幻读测试流程：</p>
+<ol>
+<li>A开启事务，查询user表所有数据</li>
+<li>B开启事务，新增一条记录</li>
+<li>A再次查询user表所有记录，和第一次作比对</li>
+<li>A回滚，B回滚</li>
+</ol>
+<p>A:</p>
+<p><img src="http://img.blog.csdn.net/20160908184536389" alt="这里写图片描述"></p>
+<p>B:</p>
+<p><img src="http://img.blog.csdn.net/20160908184547579" alt="这里写图片描述"></p>
+<p>结论：A两次查询全表数据结果不同，read-uncommitted隔离模式下会出现幻读。</p>
+<p>注：因为后面对这几种异常情况的测试流程基本和上面一样，个别有些差别读者自己注意，另外注意更改隔离级别即可，就能看到对应结果，后面的我只给出进一步能解决的异常测试截图,结论可以参照前面的对照表。</p>
+<h4 id="隔离级别：read-committed"><a href="#隔离级别：read-committed" class="headerlink" title="隔离级别：read-committed"></a><strong>隔离级别：read-committed</strong></h4><h5 id="脏读测试截图"><a href="#脏读测试截图" class="headerlink" title="脏读测试截图"></a>脏读测试截图</h5><p>A:</p>
+<p><img src="http://img.blog.csdn.net/20160908231058914" alt="这里写图片描述"><br>B：</p>
+<p><img src="http://img.blog.csdn.net/20160908231121539" alt="这里写图片描述"></p>
+<p>结论：A没有读到B没有提交的内容，隔离级别为read-committed的时候不会出现脏读。</p>
+<h4 id="隔离级别：repeatable-read"><a href="#隔离级别：repeatable-read" class="headerlink" title="隔离级别：repeatable-read"></a><strong>隔离级别：repeatable-read</strong></h4><h5 id="不可重复读测试截图"><a href="#不可重复读测试截图" class="headerlink" title="不可重复读测试截图"></a>不可重复读测试截图</h5><p>A:</p>
+<p><img src="http://img.blog.csdn.net/20160908233613781" alt="这里写图片描述"></p>
+<p>B：</p>
+<p><img src="http://img.blog.csdn.net/20160908233628156" alt="这里写图片描述"></p>
+<p>结论：A两次读取id=1的数据内容相同，repeatable-read隔离模式下不会出现不可重复读。</p>
+<h4 id="隔离级别：Serializable"><a href="#隔离级别：Serializable" class="headerlink" title="隔离级别：Serializable"></a><strong>隔离级别：Serializable</strong></h4><h5 id="幻读测试截图"><a href="#幻读测试截图" class="headerlink" title="幻读测试截图"></a>幻读测试截图</h5><p>A:</p>
+<p><img src="http://img.blog.csdn.net/20160908235618573" alt="这里写图片描述"></p>
+<p>B：</p>
+<p><img src="http://img.blog.csdn.net/20160909000404537" alt="这里写图片描述"></p>
+<p>结论：因为A事务未提交之前，B事务插入操作无法获得锁而超时，Serializable隔离模式下不会出现幻读。</p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
